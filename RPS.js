@@ -9,7 +9,6 @@
     button.addEventListener("click", playRound);
     });
 
-
  function playRound(e){
     var userChoice = e.target.id;  
     var computerChoice = getComputerChoice();
@@ -23,7 +22,6 @@
      let randomIndex = Math.floor(Math.random() * choices.length);
      return choices[randomIndex];
    }
-
  function getResult(user,computer){
      if (user === computer){
           return "it's a tie!";
@@ -37,7 +35,6 @@
           return "You lose.";
      }   
   }
-
 function updateScore(result){
      if (result === "You win!"){
           userScoreCount++;
