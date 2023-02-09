@@ -1,4 +1,4 @@
-
+ h
     const buttons = document.querySelectorAll("button");
     const result = document.querySelector("#result");
     const userScore = document.querySelector("userScore");
